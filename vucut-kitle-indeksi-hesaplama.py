@@ -18,8 +18,8 @@ def bmi_category(bmi):
 
 def main():
     try:
-        weight = float(input("Kilonuzu kilogram cinsinden girin: "))
-        height = float(input("Boyunuzu metre cinsinden girin (örneğin, 1.75): "))
+        weight = float(input("Kilonuzu kilogram cinsinden giriniz: "))
+        height = float(input("Boyunuzu metre cinsinden giriniz (örneğin, 1.60): "))
         
         bmi = calculate_bmi(weight, height)
         category = bmi_category(bmi)
